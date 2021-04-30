@@ -22,8 +22,8 @@ const MoviesRouter = require('./Router/MoviesRouter')
 
 
 app.use('/user', UserRouter) // register, login, activate, deactive, close
-app.use('/movies', MoviesRouter) // products
-// app.use('/admin', AdminRouter) // admin
+app.use('/movies', MoviesRouter) 
+
 
 
 // bind to local machine
